@@ -135,5 +135,198 @@
     display: flex;
     width: 700px;
 }
-
+.search input{
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: #c4c4c4 1px solid;
+}
+.search input::placeholder{
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.search i{
+    margin-right: 10px;
+}
 /* Navbar End */
+
+
+/* Home Page Start */
+.homepage{
+    padding-top: 2rem;
+}
+.homepage-container{
+    display: flex;
+    justify-content: space-around;
+}
+.child-homepage img{
+    border-radius: 50%;
+}
+/* Home Page End */
+
+
+
+/* Banner Start */
+.banner{
+    padding: 2rem;
+}
+.slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+/* Banner End */
+
+
+
+/* Home Decor Start */
+.homedecor{
+    margin-top: 2rem;
+    background-color: #f7f7f7;
+    padding: 2rem;
+}
+.homedecor-container h2{
+    text-align: center;
+    color: #013564;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.child-homedecor{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    padding: 0 8rem 0 8rem;
+}
+.child-homedecor img{
+    border-radius: 15px;
+    width: 90%;
+}
+/* Home Decor End */
+
+
+/* Best Seller Start */
+.bestseller{
+    padding: 2rem;
+}
+.bestseller-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.bestseller-heading h2{
+    color: #013564;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.bestseller-heading button{
+    padding: 8px 15px;
+    background-color: #fff;
+    color: #013564;
+    border: #013564 1px solid;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.child-bestseller{
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(58, 58, 58, 0.089);
+}
+.child-bestseller img{
+    width: 90%;
+    margin-top: 1rem;
+}
+.child-bestseller h4{
+    margin-bottom: 1rem;
+}
+.bestseller-images{
+    display: flex;
+}
+#ml{
+    width: 230px;
+    padding: 8px 20px;
+}
+#numbers{
+    padding: 7px 7px;
+}
+.child-bestseller button{
+    padding: 8px 20px;
+    background-color: #fff;
+    border: #8d8d8d 1px solid;
+    width: 100%;
+    cursor: pointer;
+}
+.child-bestseller button:hover{
+    background-color: #013564;
+    color: #fff;
+}
+/* Best Seller End */
+
+
+
+/* Cook Start */
+.cook{
+    padding: 2rem;
+    margin-top: 1rem;
+}
+.cook-container h2{
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #013564;
+    font-size: 30px;
+}
+.cook-images{
+    display: flex;
+}
+.cook-images img{
+    width: 13%;
+    margin-right: 16px;
+}
+/* Cook End */

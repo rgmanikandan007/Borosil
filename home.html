@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,14 @@
     <!-- CSS LINK -->
     <link rel="stylesheet" href="css/home.css">
     <!-- FONT AWESOME ICON -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-     <!-- FONT FAMILY MULISH -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- FONT FAMILY MULISH -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- Navbar Start -->
     <div class="top-header">
@@ -73,10 +76,272 @@
                     <li><a href="#">COOKWARE</a></li>
                     <li><a href="#">HOME DECOR</a></li>
                     <li><a href="#">DEALS</a></li>
+                    <div class="search">
+                        <input type="text" placeholder="Search Product...">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
                 </ul>
             </nav>
         </div>
     </div>
     <!-- Navbar End -->
+
+    <!-- Home Page Start -->
+    <div class="homepage">
+        <div class="homepage-container">
+            <div class="child-homepage">
+                <img src="images/homepage1.png" alt="image">
+                <h6>Build Your Dinnerset</h6>
+            </div>
+            <div class="child-homepage">
+                <img src="images/homepage2.png" alt="image">
+                <h6>Super Deal</h6>
+            </div>
+            <div class="child-homepage">
+                <img src="images/homepage3.gif" alt="image">
+                <h6>Personalised Bottles</h6>
+            </div>
+            <div class="child-homepage">
+                <img src="images/homepage4.png" alt="image">
+                <h6>Personalise jars & Glass</h6>
+            </div>
+            <div class="child-homepage">
+                <img src="images/homepage5.jpg" alt="image">
+                <h6>Opalware</h6>
+            </div>
+            <div class="child-homepage">
+                <img src="images/homepage6.png" alt="image">
+                <h6>My Borosil Exclusive</h6>
+            </div>
+            <div class="child-homepage">
+                <img src="images/homepage7.jpg" alt="image">
+                <h6>Blogs</h6>
+            </div>
+        </div>
+    </div>
+    <!-- Home Page End -->
+
+    <!-- Banner Start -->
+    <div class="banner">
+        <div class="banner-container">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/banner1.png" style="width:100%">
+                </div>
+                <!-- <div class="mySlides fade">
+                    <img src="images/banner2.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/banner3.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/banner4.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/banner5.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/banner6.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/banner7.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/banner8.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/banner9.png" style="width:100%">
+                </div> -->
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- Home Decor Start -->
+    <div class="homedecor">
+        <div class="homedecor-container">
+            <h2>EXPLORE BEST OFFERS</h2>
+            <div class="child-homedecor">
+                <div><img src="images/homedecor1.png" alt="img"></div>
+                <div><img src="images/homedecor2.png" alt="img"></div>
+                <div><img src="images/homedecor3.png" alt="img"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Home Decor End -->
+
+
+    <!-- Best Seller Start -->
+    <div class="bestseller">
+        <div class="bestseller-container">
+            <div class="bestseller-heading">
+                <div>
+                    <h2>BEST SELLER</h2>
+                </div>
+                <div><button>VIEW ALL</button></div>
+            </div>
+            <div class="bestseller-images">
+                <div class="child-bestseller">
+                    <img src="images/bestseller1.jpg" alt="image">
+                    <h4>Borosil Klip n Store <br> Rectangular Glass Container</h4>
+                    <h4><span style="color: brown;">₹ 234 </span><del>₹ 260 </del><span style="color: green;"> 10%
+                            off</span></h4>
+                    <form>
+                        <select id="numbers">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <select id="ml">
+                            <option value="250 ml">250 ml</option>
+                            <option value="300 ml">300 ml</option>
+                            <option value="350 ml">350 ml</option>
+                            <option value="400 ml">400 ml</option>
+                            <option value="450 ml">450 ml</option>
+                        </select>
+                        <br><br>
+                        <button>ADD TO CART</button>
+                    </form>
+                </div>
+                <div class="child-bestseller">
+                    <img src="images/bestseller2.jpg" alt="image">
+                    <h4>Borosil EazyPull <br> Chopper</h4>
+                    <h4><span style="color: brown;">₹ 234 </span><del>₹ 260 </del><span style="color: green;"> 10%
+                            off</span></h4>
+                    <form>
+                        <select id="numbers">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <select id="ml">
+                            <option value="250 ml">250 ml</option>
+                            <option value="300 ml">300 ml</option>
+                            <option value="350 ml">350 ml</option>
+                            <option value="400 ml">400 ml</option>
+                            <option value="450 ml">450 ml</option>
+                        </select>
+                        <br><br>
+                        <button>ADD TO CART</button>
+                    </form>
+                </div>
+                <div class="child-bestseller">
+                    <img src="images/bestseller3.jpg" alt="image">
+                    <h4>Borosil Chef Delite <br> Chopper with 2 blade sets</h4>
+                    <h4><span style="color: brown;">₹ 234 </span><del>₹ 260 </del><span style="color: green;"> 10%
+                            off</span></h4>
+                    <form>
+                        <select id="numbers">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <select id="ml">
+                            <option value="250 ml">250 ml</option>
+                            <option value="300 ml">300 ml</option>
+                            <option value="350 ml">350 ml</option>
+                            <option value="400 ml">400 ml</option>
+                            <option value="450 ml">450 ml</option>
+                        </select>
+                        <br><br>
+                        <button>ADD TO CART</button>
+                    </form>
+                </div>
+                <div class="child-bestseller">
+                    <img src="images/bestseller4.jpg" alt="image">
+                    <h4>Borosil Oval Baking <br> Dish</h4>
+                    <h4><span style="color: brown;">₹ 234 </span><del>₹ 260 </del><span style="color: green;"> 10%
+                            off</span></h4>
+                    <form>
+                        <select id="numbers">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <select id="ml">
+                            <option value="250 ml">250 ml</option>
+                            <option value="300 ml">300 ml</option>
+                            <option value="350 ml">350 ml</option>
+                            <option value="400 ml">400 ml</option>
+                            <option value="450 ml">450 ml</option>
+                        </select>
+                        <br><br>
+                        <button>ADD TO CART</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Best Seller End -->
+
+
+    <!-- Cook Start -->
+     <div class="cook">
+        <div class="cook-container">
+            <h2>COOK WITH BOROSIL</h2>
+            <div class="cook-images">
+                <img src="images/1.png" alt="img">
+                <img src="images/2.jpg" alt="img">
+                <img src="images/3.jpg" alt="img">
+                <img src="images/4.jpg" alt="img">
+                <img src="images/5.jpg" alt="img">
+                <img src="images/6.jpg" alt="img">
+                <img src="images/7.jpg" alt="img">
+            </div>
+        </div>
+     </div>
+    <!-- Cook End -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script> -->
+
 </body>
+
 </html>
