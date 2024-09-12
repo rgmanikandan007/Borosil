@@ -38,8 +38,11 @@
     <div class="bottom-navbar">
         <div class="bottom-navbar-container">
             <nav class="navbar">
-                <ul class="navbar-menu">
-                    <li><a href="#">APPLIANCESS</a></li>
+                <button class="toggle-btn" id="toggle-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="navbar-menu" id="navbar-menu">
+                    <li><a href="#">APPLIANCES</a></li>
                     <li><a href="#">DINNERWARE</a></li>
                     <li><a href="#">SERVEWARE</a></li>
                     <li class="dropdown">
@@ -286,7 +289,7 @@
 
 
     <!-- Cook Start -->
-     <div class="cook">
+    <div class="cook">
         <div class="cook-container">
             <h2>COOK WITH BOROSIL</h2>
             <div class="cook-images">
@@ -296,10 +299,9 @@
                 <img src="images/4.jpg" alt="img">
                 <img src="images/5.jpg" alt="img">
                 <img src="images/6.jpg" alt="img">
-                <img src="images/7.jpg" alt="img">
             </div>
         </div>
-     </div>
+    </div>
     <!-- Cook End -->
 
 
@@ -309,7 +311,14 @@
 
 
 
+    <script>
+        const toggleBtn = document.getElementById('toggle-btn');
+        const navbarMenu = document.getElementById('navbar-menu');
 
+        toggleBtn.addEventListener('click', () => {
+            navbarMenu.classList.toggle('show');
+        });
+    </script>
 
 
 
