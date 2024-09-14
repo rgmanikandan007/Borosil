@@ -1115,3 +1115,120 @@
     margin: 1.5rem;
 }
 /* Why Choose End */
+
+
+/* Customers Start */
+.customer{
+    padding: 2rem;
+    background-color: #f7f7f7;
+}
+.customer-heading h2{
+    text-align: center;
+    color: #013564;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.customer-heading p{
+    text-align: center;
+    margin-top: 1rem;
+}
+.customer-content{
+    display: flex;
+    margin-top: 3rem;
+}
+.child-customer{
+    background-color: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 7px;
+}
+.child-customer h3{
+    color: #013564;
+    margin-bottom: 1rem;
+}
+.child-customer p{
+    margin-bottom: 1rem;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.child-customer h4{
+    margin-bottom: 1rem;
+}
+.child-customer button{
+    margin-bottom: 1rem;
+    border: none;
+    background-color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+/* Customers End */
+
+
+
+/* Advantage Start */
+.advantage{
+    padding: 2rem;
+}
+.advantage-container h2{
+    text-align: center;
+    color: #013564;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.advantage-images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+/* Advantage End */
+
+
+/* Footer Start */
+.footer{
+    background-color: #004778;
+}
+.footer-logo img{
+    width: 250px;
+}
+.connect-icons i{
+    padding: 8px;
+    border-radius: 50%;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: #fff;
+}
+.footer-container ul li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+    font-weight: 200;
+}
+.footer-container h3{
+    margin-bottom: 1rem;
+}
+.footer-container p{
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.seo{
+    padding: 1rem 2rem 2rem 2rem;
+}
+.seo h3{
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.seo p{
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 13px;
+}
+.copyright p{
+    text-align: center;
+    margin-top: 3rem;
+}
+/* Footer End */
